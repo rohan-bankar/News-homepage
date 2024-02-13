@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.container{
+    margin: 30px 130px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.menu{
+display: none;
+}
+
+.menu-close{
+display: none;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 50%;
+}
+
+li{
+    display: inline;
+    margin-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+li a:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.image-web-3-desktop{
+    width: 100%;
+}
+
+.image-web-3-mobile{
+    display: none;
+}
+.new{
+    font-size: 40px;
+    margin: 0;
+    color: hsl(35, 77%, 62%);
+}
+
+.news{
+    margin: 20px 0 ;
+}
+
+.news strong:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.news p{
+    line-height: 25px;
+    color:  hsl(236, 13%, 42%);
+}
+
+.new-news{
+    width:100%;
+    margin: 0 30px 30px 30px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding: 30px;
+}
+
+.heading{
+    width: 40%;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.paragraph{
+    width: 60%;
+    margin-left: 40px;
+}
+
+.web3-info{
+    line-height: 25px;
+    color: hsl(236, 13%, 42%);
+}
+
+.btn{
+    padding: 15px;
+    width: 180px;
+    border-style: none;
+    background-color:hsl(5, 85%, 63%);
+    color:hsl(36, 100%, 99%) ;
+    text-transform:uppercase ;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.tech-news,
+.news-1,
+.news-2,
+.news-3,
+.details,
+.latest-news
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.retroPcs,
+.top-laptop,
+.gaming{
+    height: 120px;
+    width: 100px;
+}
+
+.news-1-info,
+.news-2-info,
+.news-3-info{
+    padding: 0 25px;
+}
+
+.num{
+    margin: 0;
+    font-size: 30px;
+    color:  hsl(233, 8%, 79%);
+    font-weight: bold;
+}
+
+.newsHeading{
+    margin: 0;
+    font-weight: bold;
+}
+
+.newsHeading:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.newsInfo{
+    color: hsl(236, 13%, 42%);
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        margin:10px;
+    }
+
+.menu{
+display: block;
+position: relative;
+left: 230px;
+top: 10px;
+height: 15px;
+}
+
+.menu-close{
+    display: block;
+    position: relative;
+    left: 100px;
+}
+.image-web-3-desktop{
+    display: none;
+}
+
+.image-web-3-mobile{
+    width: 100%;
+    display: block;
+}
+.tech-news,
+.details,
+.latest-news
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.new-news{
+    margin: 50px 0;
+    width: 83%;
+}
+
+.logo{
+    height: 50px;
+}
+
+ul{
+ display:none;
+  height: 300px; 
+  width: 200px; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  background-color:white; 
+}
+
+.navbar li{
+    display: grid;
+    line-height: 50px;
+}
+
+.heading{
+    width: 100%;
+   margin: 0;
+   margin-top: 10px;
+}
+
+.paragraph{
+    width: 100%;
+    margin-left:0;
+}
+
+.retroPcs,
+.top-laptop,
+.gaming{
+    height: 111px;
+}
+
+}
